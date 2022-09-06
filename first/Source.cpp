@@ -7,15 +7,15 @@ class Point {
     int x;
     int y;
 public:
-    Point()
+    void Init()
     {
+        cin >> x >> y;
+    }
+    void Print()
+    {
+        cout << x << endl << y << endl;
+    }
 
-    }
-    Point(int a, int b)
-    {
-        x = a;
-        y = b;
-    }
 };
 
 int main()
